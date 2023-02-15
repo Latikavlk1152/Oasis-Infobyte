@@ -1,0 +1,30 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url(/bb1bd6_9e43625c62264b1293fa4b86cccc05f3_mv2.webp);
+	color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#temp-conv, #length-conv
+{
+	padding-top: 10em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    font-size: large;
+}
+
+button {
+	padding: 4px 7px;
+}
